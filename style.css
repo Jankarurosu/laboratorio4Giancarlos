@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th,
+td {
+    background-color: #aafdc3;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    gap: 10px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li img {
+    width: 90px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
